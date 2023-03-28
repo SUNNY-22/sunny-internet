@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(207, 233, 218);
+}
+
+header {
+    font-style: italic;
+    font-size: bold;
+    
+}
+
+ul {
+    font-style: oblique;
+    
+}
+/* h="body" contact {
+    background-position: 0em;
+    background-color: red;
+} */
+
+img{
+    width: 600px;
+    height: 300px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400%;
+    height:  200%;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(48, 192, 19, 0.753);
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+body {
+    background-color:darkslateblue;
+}
+
+.container {
+    background-color: darkgreen;
+}
+
+.toggle:checked + .container{
+    display: block;
+}
+
+body {
+    margin: auto;
+    width: 600px;
+    padding: 300px;
+}
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, blue 50%, blue 50%), url(image/tech-computer-logo-template_23-2149204144.webp)
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
